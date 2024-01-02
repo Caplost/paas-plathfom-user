@@ -2,8 +2,8 @@ package handler
 import (
 	"context"
 	"git.imooc.com/coding-535/user/domain/service"
-	log "github.com/asim/go-micro/v3/logger"
 	permission "git.imooc.com/coding-535/user/proto/permission"
+	log "github.com/asim/go-micro/v3/logger"
 )
 type PermissionHandler struct{
 	//注意这里的类型是 IPermissionDataService 接口类型
